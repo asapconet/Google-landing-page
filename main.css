@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+main {
+    height: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerProps {
+    text-align: right;
+    position: fixed;
+    right: 0;
+    margin: 10px 8px;
+}
+.links-style {
+    color: black;
+    font-weight: 0;
+    text-decoration: none;
+}
+
+.main-text {
+    font-size: 5rem;
+    display: flex;
+    font-weight: 550;
+    justify-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-blue {
+    color: rgb(59, 59, 209);
+}
+
+.text-red {
+    color: rgb(238, 65, 65);
+}
+
+.text-yellow {
+    color: rgb(231, 231, 80);
+}
+
+.text-green {
+    color: rgb(43, 168, 43);
+}
+
+.rounded-input {
+    width: 300%;
+    transform: translate(-34%, -50%);
+    background-color:transparent;
+    height: 40px;
+    border-radius: 18px;
+    margin: 0%;
+    border: .8px solid rgb(223, 220, 220) ;
+}
+.rounded-input:hover {
+    box-shadow: 0 0 5px rgb(212, 208, 208);
+}
+.rounded-input:focus {
+    box-shadow: 0 0 5px rgb(160, 157, 157);
+    outline: none;
+}
+.button-wrapper {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.btn {
+    background-color: whitesmoke;
+    height: 28px;
+    width: 120px;
+    font-size: 12px;
+    border-radius: 2px;
+    border: none;
+    text-align: center;
+    margin-right: 4px;
+}
+.btn:hover {
+    box-shadow: 0 0 4px rgb(167, 162, 162);
+}
+.bottom-items {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(240, 236, 240, .6);
+}
+
+.bottom-items1 {
+    padding-top: 12px;
+    width: 100%;
+    height: 70%;
+    text-align: left;
+    border-top: 1px solid rgb(209, 203, 203);
+}
+
+.lang-optns1 {
+    margin-left: 26;
+    height: 30%;
+    padding-top: 15px;
+}
+
+
+.links {
+    text-decoration: none;
+}
+
+.links-style {
+    margin-right: 12px;
+
+}
+
+.links-style0 {
+    margin-right: 12px;
+    text-decoration: none;
+    padding: 5px;
+}
+.links-style0:hover {
+    background-color: rgb(219, 213, 213);
+    border-radius: 100px;
+}
+
+.links-style1 {
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.links-style2 {
+    margin-left: 16px;
+    text-align: left;
+    text-decoration: none;
+}
+a:hover {
+    color: grey;
+}
+
+.links-style3 {
+    text-decoration: none;
+    left: 200px;
+    margin-right: 15px;
+}
+
+
+.last-option0 {
+    position: relative;
+    text-align: right;
+    margin-right: 24%;
+    margin-left: 2%;
+}
+
+.last-option1 {
+    margin-right: 15%;
+    position: relative;
+}
+
+.last-option2 {
+    position: relative;
+    left: 300;
+    margin-right: 2%;
+}
